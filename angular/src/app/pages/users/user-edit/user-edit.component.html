@@ -1,0 +1,15 @@
+<h2>Editar Usuário</h2>
+<form *ngIf="user" (ngSubmit)="updateUser()">
+    <mat-form-field>
+        <mat-label>Nome</mat-label>
+        <input matInput [(ngModel)]="user.username" name="username" required>
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Senha</mat-label>
+        <input type="password" matInput [(ngModel)]="user.password" name="password" required>
+    </mat-form-field>
+
+    <button mat-button class="primary" type="submit">Salvar</button>
+    <button mat-button class="accent" (click)="cancel()">Cancelar</button>
+</form>

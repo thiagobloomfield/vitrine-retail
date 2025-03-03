@@ -1,0 +1,13 @@
+.dashboard-container {
+    height: 100vh;
+}
+.spacer {
+    flex: 1;
+}
+.content {
+    padding: 16px;
+}
+mat-list-item.active {
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.1);
+}

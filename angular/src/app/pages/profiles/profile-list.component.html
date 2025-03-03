@@ -1,0 +1,8 @@
+<h2>Lista de Perfis</h2>
+<mat-list>
+    <mat-list-item *ngFor="let profile of profiles$ | async">
+    {{ profile.name }}
+    <button mat-button color="primary" (click)="editProfile(profile.id)">Editar</button>
+    <button mat-button color="warn" (click)="deleteProfile(profile.id)">Deletar</button>
+    </mat-list-item>
+</mat-list>

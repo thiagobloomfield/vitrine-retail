@@ -1,0 +1,8 @@
+<h2>Lista de Usuários</h2>
+<mat-list>
+  <mat-list-item *ngFor="let user of users$ | async">
+    {{ user.username }}
+    <button mat-button class="primary" (click)="gotToEditUser(user.id)">Editar</button>
+    <button mat-button class="warn" (click)="deleteUser(user.id)">Deletar</button>
+  </mat-list-item>
+</mat-list>

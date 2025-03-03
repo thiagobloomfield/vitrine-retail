@@ -9,14 +9,14 @@ class AuthMiddleware
     public function handle($request, $next)
     {
         $headers = getallheaders();
-        if (!isset($headers['Authorization'])) {
+        if (!isset($headers['authorization'])) {
             http_response_code(401);
             echo json_encode(['message' => 'Authorization header missing']);
             exit;
         }
 
         $authService = new AuthService();
-        $token = str_replace('Bearer ', '', $headers['Authorization']);
+        $token = str_replace('Bearer ', '', $headers['authorization']);
 
         try {
             $authService->validateToken($token);

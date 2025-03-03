@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class UserService {
-  final String apiUrl = "http://localhost:8080/users";
+  final String apiUrl = "http://192.168.15.13:8080/vitrine-retail/api/users";
 
   Future<List> getUsers() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();

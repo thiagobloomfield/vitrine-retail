@@ -1,43 +1,43 @@
-angular-app/node_modules
-angular-app/dist
-angular-app/tmp
-angular-app/out-tsc
-angular-app/bazel-out
+angular/node_modules
+angular/dist
+angular/tmp
+angular/out-tsc
+angular/bazel-out
 
 # Node
-angular-app/node_modules
-angular-app/npm-debug.log
-angular-app/yarn-error.log
+angular/node_modules
+angular/npm-debug.log
+angular/yarn-error.log
 
 # IDEs and editors
-angular-app/.idea/
-angular-app/.project
-angular-app/.classpath
-angular-app/.c9/
-angular-app/*.launch
-angular-app/.settings/
-angular-app/*.sublime-workspace
+angular/.idea/
+angular/.project
+angular/.classpath
+angular/.c9/
+angular/*.launch
+angular/.settings/
+angular/*.sublime-workspace
 
 # Visual Studio Code
-angular-app/.vscode/*
-angular-app/!.vscode/settings.json
-angular-app/!.vscode/tasks.json
-angular-app/!.vscode/launch.json
-angular-app/!.vscode/extensions.json
-angular-app/.history/*
+angular/.vscode/*
+angular/!.vscode/settings.json
+angular/!.vscode/tasks.json
+angular/!.vscode/launch.json
+angular/!.vscode/extensions.json
+angular/.history/*
 
 # Miscellaneous
-angular-app//.angular/cache
-angular-app/.sass-cache/
-angular-app/connect.lock
-angular-app/coverage
-angular-app/libpeerconnection.log
-angular-app/testem.log
-angular-app/typings
+angular//.angular/cache
+angular/.sass-cache/
+angular/connect.lock
+angular/coverage
+angular/libpeerconnection.log
+angular/testem.log
+angular/typings
 
 # System files
-angular-app/.DS_Store
-angular-app/Thumbs.db
+angular/.DS_Store
+angular/Thumbs.db
 
 
 
